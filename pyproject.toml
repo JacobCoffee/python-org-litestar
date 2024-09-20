@@ -1,0 +1,14 @@
+[project]
+name = "pydotorg-litestar"
+version = "0.1.0"
+description = "Python.org but using Litestar framework"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "litestar>=2.11.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
